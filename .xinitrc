@@ -1,3 +1,3 @@
 . "$HOME/.xprofile"
 
-dwm
+ssh-agent dwm
