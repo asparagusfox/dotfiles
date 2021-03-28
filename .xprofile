@@ -1,6 +1,6 @@
 #!/bin/sh
 
-redshift &
+redshift -PO 3000 &
 
 # This line autostarts an instance of Pulseaudio that does not exit on idle.
 # This is "necessary" on Artix due to a current bug between PA and
