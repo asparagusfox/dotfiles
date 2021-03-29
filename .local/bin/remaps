@@ -5,6 +5,9 @@
 # Increase key speed via a rate change
 xset r rate 300 50
 
+# Map shift-esc to ~
+xmodmap -e 'keycode 9 = Escape asciitilde Escape'
+
 # Map the end key to super
 xmodmap -e 'keycode 115 = Super_L'
 
