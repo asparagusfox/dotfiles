@@ -6,4 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-PS1='[\u@\h \w]\$ '
+
+STARTCOLOUR="\e[0;36m"
+ENDCOLOUR="\e[m"
+PS1="$STARTCOLOUR[\u@\h$ENDCOLOUR \w$STARTCOLOUR]$ENDCOLOUR\$ "
