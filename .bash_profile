@@ -2,6 +2,9 @@
 # ~/.bash_profile
 #
 
-export PATH=$PATH:$HOME/.local/bin
+export BROWSER=brave
+
+PATH=$PATH:$HOME/.local/bin
+export PATH
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
