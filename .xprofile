@@ -4,7 +4,7 @@ redshift -PO 3000 &
 remaps &
 
 # This line autostarts an instance of Pulseaudio that does not exit on idle.
-# This is "necessary" on Artix due to a current bug between PA and
+# This is "necessary" on Artix (hence runit) due to a current bug between PA and
 # Chromium-based browsers where they fail to start PA and use dummy output.
 pidof -s runit &&
 	! pidof -s pulseaudio >/dev/null 2>&1 &&
