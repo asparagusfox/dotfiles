@@ -2,7 +2,7 @@
 # ~/.bash_profile
 #
 
-export BROWSER=brave
+export BROWSER=brave-browser
 
 PATH=$PATH:$HOME/.local/bin
 export PATH
