@@ -1,6 +1,5 @@
 #!/bin/sh
 
-redshift -PO 3000 &
 remaps &
 
 # This line autostarts an instance of Pulseaudio that does not exit on idle.
