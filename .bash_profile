@@ -3,6 +3,7 @@
 #
 
 export BROWSER=brave-browser
+export EDITOR=vim
 
 PATH=$PATH:$HOME/.local/bin
 PATH=$PATH:$HOME/bin
