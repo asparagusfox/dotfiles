@@ -1,5 +1,5 @@
 #!/bin/sh
 
-xrandr --output HDMI-1 --brightness 0.8
+xrandr --output HDMI-1 --brightness 0.75
 
-redshift -O 3500
+redshift -O 3300
