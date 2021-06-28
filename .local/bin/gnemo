@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+dbus-update-activation-environment --systemd --all
+GTK_THEME=Adwaita:dark nemo &
