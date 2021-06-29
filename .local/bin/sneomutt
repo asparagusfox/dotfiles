@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mbsync -q axel@bakerbates.com &
+
+neomutt
